@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    color:white;
+   
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+main {
+    background-image: url("https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d82decc0a3270aa7a93021342b83b015&auto=format&fit=crop&w=1350&q=80");
+    background-size:cover;
+    height: 100vh;
+}
+nav {
+    height:70px;
+    display:block;
+    padding:2%;
+    
+}
+
+.fa {
+    margin:0 2%;
+}
+.container {
+    margin: auto;
+    width:80%;
+    clear: both;
+}
+
+#logo {
+    background-color:#89CE94;
+    padding:1%;
+    display: inline-block; 
+    font-size:200%;
+    color: white;
+    float: left;
+}
+
+#socials {
+    float: right;
+    padding:0%;
+    width:40%
+}
+
+#socials a{
+    color:white;
+    float: right;
+    padding:0 2%;
+    font-size:300%;
+    opacity:0.8;
+}
+
+#socials a:hover{
+    opacity:1;
+}
+
+#discription {
+    clear: both;
+    position: relative;
+    top: 50vh;
+    width:50vw;
+}
+#discription {
+    clear: both;
+    position: relative;
+    top: 20vh;
+    left:5vw;
+}
+
+#discription h1{
+    font-size:700%;
+    line-height: 8rem;
+}
+
+#discription p{
+    font-size:100%;
+    opacity:0.7;
+}
+
+#actions {
+    margin-top:40px;
+}
+
+.action {
+    margin-right:40px;
+    background-color:#89CE94;
+    padding:1% 2%;
+    font-size:120%;
+    text-decoration:none;
+}
