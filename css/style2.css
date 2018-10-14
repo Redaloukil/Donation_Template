@@ -1,0 +1,24 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+   
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#right {
+    height:100vh;
+    background-image:url("https://images.unsplash.com/photo-1534751075827-c57bcba8b700?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=959621dd1e4937c08458026311460446&auto=format&fit=crop&w=634&q=80");
+    background-size:cover;
+    width:40%;
+    float:right;
+}
+
+#left {
+    width:60%;
+    float: left;
+}
