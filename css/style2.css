@@ -10,6 +10,13 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 
+nav {
+    height:70px;
+    display:block;
+    padding:2%;
+    
+}
+
 #right {
     height:100vh;
     background-image:url("https://images.unsplash.com/photo-1534751075827-c57bcba8b700?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=959621dd1e4937c08458026311460446&auto=format&fit=crop&w=634&q=80");
@@ -21,4 +28,35 @@ body{
 #left {
     width:60%;
     float: left;
+}
+
+#logo {
+    background-color:#89CE94;
+    padding:1%;
+    display: inline-block; 
+    font-size:200%;
+    color: white;
+    float: left;
+}
+
+#links {
+    float: right;
+    padding:0%;
+    width: 50%;
+}
+
+#links a {
+    padding:3%;
+    float: right;
+    text-decoration: none;
+    font-size:120%;
+    color:#333;
+}
+
+#content {
+    padding:5% 2%;
+}
+
+.content {
+    padding:3% 0%;
 }
