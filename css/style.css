@@ -7,7 +7,7 @@
 
 body{
     font-size: 16px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 main {
@@ -72,13 +72,15 @@ nav {
 }
 
 #discription h1{
-    font-size:700%;
+    font-size:600%;
+    font-weight:300;
     line-height: 8rem;
 }
 
 #discription p{
-    font-size:100%;
+    font-size:120%;
     opacity:0.7;
+    line-height:2.0rem;
 }
 
 #actions {
@@ -89,6 +91,13 @@ nav {
     margin-right:40px;
     background-color:#89CE94;
     padding:1% 2%;
-    font-size:120%;
+    font-size:140%;
     text-decoration:none;
 }
+
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){
+
+}
+@media(min-width:1200px){}

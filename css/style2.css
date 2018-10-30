@@ -2,14 +2,22 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
-   
+}
+
+p {
+    list-height:2.4rem;
+
 }
 
 body{
     font-size: 16px;
-    font-family: 'Nunito', sans-serif;
-}
+    font-family: 'Roboto Condensed', sans-serif;
+    
 
+}
+main {
+    height: 100vh;
+}
 nav {
     height:70px;
     display:block;
@@ -23,11 +31,14 @@ nav {
     background-size:cover;
     width:40%;
     float:right;
+    display: inline-block;
 }
 
 #left {
     width:60%;
     float: left;
+    display: inline-block;
+    overflow-y: scroll;
 }
 
 #logo {
@@ -46,17 +57,30 @@ nav {
 }
 
 #links a {
-    padding:3%;
+    padding:4% 2%;
     float: right;
     text-decoration: none;
-    font-size:120%;
+    font-size:140%;
     color:#333;
+    opacity:0.7;
+}
+
+#links a:hover {
+    opacity:1;
 }
 
 #content {
-    padding:5% 2%;
+    padding:30px 30px;
 }
 
-.content {
-    padding:3% 0%;
+.content h1{
+    padding:2% 0%;
+}
+
+.content p{
+    line-height :2.2em;
+}
+
+.content p{
+    line-height :2.2em;
 }
